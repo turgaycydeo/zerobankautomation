@@ -1,4 +1,4 @@
-package com.zerobank.pages;
+package com.zerobank.runners;
 
 public class CukesRunner {
 }
