@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "junit:target/junit/junit-report.xml",
                 "rerun:target/rerun.txt"},
         dryRun = false,
-        tags = "@wip"
+        tags = ""
 )
 public class CukesRunner {
 }

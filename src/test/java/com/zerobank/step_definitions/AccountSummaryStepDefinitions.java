@@ -47,4 +47,17 @@ public class AccountSummaryStepDefinitions {
         Assert.assertTrue(newAccount.equals(accountTypes));
 
             }
+
+    @Then("Credit Accounts table must have columns")
+    public void credit_accounts_table_must_have_columns(List<String> dataTable) {
+
+        List<String> newTable= new ArrayList<>(accountSummary.accountsTable.size());
+        for(WebElement each: accountSummary.accountsTable){
+            newTable.add(each.getText());
+        }
+
+      Assert.assertTrue(newTable.equals(dataTable));
+
+
+    }
 }
