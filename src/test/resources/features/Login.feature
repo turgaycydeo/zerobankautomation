@@ -11,7 +11,7 @@ Feature: Login functionality
     And user clicks on account summary button
     Then Account summary page is displayed
 
-  @wip
+
   Scenario: User should NOT be able to login to the application with INVALID credentials
     And User enters valid username
     And User enters invalid password

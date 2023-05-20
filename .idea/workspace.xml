@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de01003e-b39c-48cc-8a1d-7434331c32e7" name="Changes" comment="CukesRunner and FailedTestRunner classes created.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/LoginStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+    <list default="true" id="de01003e-b39c-48cc-8a1d-7434331c32e7" name="Changes" comment="Login feature, step definitions and login page created">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AccountSummaryStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,26 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User should NOT be able to login to the application with INVALID credentials">
+  <component name="RunManager" selected="Cucumber Java.Feature: AccountSummary">
+    <configuration name="Feature: AccountSummary" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" />
+      <option name="GLUE" value="com.zerobank.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="zerobankautomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AccountSummary" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: User should NOT be able to login to the application with INVALID credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
@@ -91,6 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" />
+      <option name="GLUE" value="com.zerobank.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="zerobankautomation" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zerobankautomation" />
       <extension name="coverage">
@@ -108,8 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: User should NOT be able to login to the application with INVALID credentials" />
+        <item itemvalue="Cucumber Java.Feature: AccountSummary" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: " />
+        <item itemvalue="Cucumber Java.Scenario: User should NOT be able to login to the application with INVALID credentials" />
         <item itemvalue="Cucumber Java.Scenario: User should be able to login to the application with valid credentials" />
       </list>
     </recent_temporary>
@@ -125,7 +161,10 @@
       <workItem from="1684423967022" duration="5507000" />
       <workItem from="1684492492081" duration="12647000" />
       <workItem from="1684507970084" duration="7516000" />
-      <workItem from="1684540456332" duration="2422000" />
+      <workItem from="1684540456332" duration="2565000" />
+      <workItem from="1684572885110" duration="710000" />
+      <workItem from="1684592871259" duration="5722000" />
+      <workItem from="1684599426184" duration="2019000" />
     </task>
     <task id="LOCAL-00001" summary="Automation framework created">
       <created>1684425598568</created>
@@ -155,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684426405303</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Login feature, step definitions and login page created">
+      <created>1684543003230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684543003230</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +223,7 @@
     <MESSAGE value="Automation framework created" />
     <MESSAGE value="Automation framework created1" />
     <MESSAGE value="CukesRunner and FailedTestRunner classes created." />
-    <option name="LAST_COMMIT_MESSAGE" value="CukesRunner and FailedTestRunner classes created." />
+    <MESSAGE value="Login feature, step definitions and login page created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login feature, step definitions and login page created" />
   </component>
 </project>
