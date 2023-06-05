@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de01003e-b39c-48cc-8a1d-7434331c32e7" name="Changes" comment="Hooks class created">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/OnlineBanking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/PayBills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AccountActivityStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/PayBillsStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PayBills.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivity" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
-    </list>
+    <list default="true" id="de01003e-b39c-48cc-8a1d-7434331c32e7" name="Changes" comment="Hooks class created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +169,7 @@
       <workItem from="1685744107769" duration="10000" />
       <workItem from="1685807458855" duration="382000" />
       <workItem from="1685980264128" duration="345000" />
-      <workItem from="1686005266264" duration="305000" />
+      <workItem from="1686005266264" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="Automation framework created">
       <created>1684425598568</created>
